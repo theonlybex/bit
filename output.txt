@@ -1,0 +1,27 @@
+PUNCTUATION ;
+     PUNCTUATION ;
+          PUNCTUATION :=
+               IDENTIFIER y
+               PUNCTUATION +
+                    PUNCTUATION +
+                         INTEGER 2
+                         INTEGER 2
+                    INTEGER 2
+          PUNCTUATION :=
+               IDENTIFIER x
+               INTEGER 5
+     RESERVED_KEYWORDS while
+          PUNCTUATION -
+               IDENTIFIER y
+               INTEGER 1
+          PUNCTUATION ;
+               PUNCTUATION :=
+                    IDENTIFIER x
+                    PUNCTUATION +
+                         IDENTIFIER x
+                         INTEGER 1
+               PUNCTUATION :=
+                    IDENTIFIER y
+                    PUNCTUATION -
+                         IDENTIFIER y
+                         INTEGER 1
